@@ -4,7 +4,6 @@ import styled, { keyframes } from 'styled-components'
 interface SkeletonProps {
   width:string
   height:string
-
 }
 const KeyFrameLoading = keyframes`
   0% {
