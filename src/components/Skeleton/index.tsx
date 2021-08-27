@@ -24,6 +24,6 @@ const LoadingSkeleton = styled.div<SkeletonProps>`
 `
 
 
-const Default = ({ width, height }:SkeletonProps) => <LoadingSkeleton width={width} height={height} />
+const Default = ({ width, height }:SkeletonProps):JSX.Element => <LoadingSkeleton width={width} height={height} />
 
 export default Default
